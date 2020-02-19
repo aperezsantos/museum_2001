@@ -19,5 +19,12 @@ class Museum
 
   def admit(patron)
     @patrons << patron
+
+    # @exhibits.each do |exhibit|
+    #   if exhibit.cost >= patron.spending_money || exhibit.cost <= patron.spending_money
+    #     @patrons << patron
+    #   end
+    #   @patrons.uniq
+    # end
   end
 end
