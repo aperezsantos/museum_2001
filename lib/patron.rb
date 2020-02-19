@@ -5,4 +5,5 @@ class Patron
     @name = name
     @spending_money = money
   end
+  
 end
